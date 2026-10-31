@@ -1,0 +1,18 @@
+{% extends "rest_framework/base.html" %}
+
+{% load static %}
+
+{% block title %}
+    Minha API | Django REST Framework
+{% endblock %}
+
+{% block branding %}
+    <a class="navbar-brand" href="/">
+        Minha API
+    </a>
+{% endblock %}
+
+{% block style %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/drf-custom.css' %}">
+{% endblock %}

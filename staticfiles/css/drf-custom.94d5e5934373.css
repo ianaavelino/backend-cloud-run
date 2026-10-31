@@ -1,0 +1,43 @@
+body{
+    background-color: #f4f6fa;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-inverse{
+    background-color: #172554;
+    border-color: #172554;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+h1{
+    color: #172554;
+    font-weight: bold;
+}
+
+pre{
+    border-radius: 8px;
+    border: 1px solid #dbe3ef;
+    background-color: #f8fafc;
+    padding: 15px;
+}
+
+.btn-primary{
+    background-color: #2563eb;
+    border-color: #2563eb;
+    border-radius: 6px;
+}
+
+.btn-primary:hover{
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.well{
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
